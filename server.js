@@ -20,7 +20,7 @@ app.use("/api/classDetail", ClassDetailAPI)
 
 
 app.get("/", (req, res)=>{
-    return res.send("Server đang chạy ... ");
+    return res.send("Server long school đang chạy ... ");
 })
 
 app.listen(PORT, (req,  res)=> console.log("Server started nha "+ PORT));
