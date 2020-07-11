@@ -19,6 +19,8 @@ app.use("/api/class", ClassAPI)
 app.use("/api/classDetail", ClassDetailAPI)
 
 
-
+app.get("/", (req, res)=>{
+    return res.send("Server đang chạy ... ");
+})
 
 app.listen(PORT, (req,  res)=> console.log("Server started nha "+ PORT));
